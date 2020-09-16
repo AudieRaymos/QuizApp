@@ -35,9 +35,13 @@ function showQuestion(question) {
 
 function resetState() {
     nextButton.classList.add('hide')
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild
+        (answerButtonsElement.firstChild)
+    }
 }
 
-function selectAnswer() {
+function selectAnswer(e) {
     
 }
 
