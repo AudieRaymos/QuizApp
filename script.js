@@ -18,6 +18,13 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
+function showQuestion(question) {
+    questionContainerElement.innerText = question.question 
+    question.answer.forEach(answer => {
+        const button = document.createElement ('button')
+    })
+}
+
 function selectAnswer() {
     
 }
