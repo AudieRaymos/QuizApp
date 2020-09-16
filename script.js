@@ -3,8 +3,10 @@ const questionContainerElement = document.getElementById ('question-container')
 
 startButton.addEventListener('click', startGame)
 
-function startGAme() {
-    
+function startGame() {
+    console.log('Started')
+    startButton.classList.add('hide')
+    questionContainerElement.classList.remove('hide')
 }
 
 function setNextQuestion() {
