@@ -103,10 +103,11 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Whate event ended the 100 years war?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Death of Philip VI', correct: false },
+      { text: 'Treaty of Paris', correct: true }
+      { text: 'Battle of Agincourt', correct: false },
     ]
   }
 ]
