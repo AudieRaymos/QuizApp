@@ -85,21 +85,21 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Who killed Alexander Hamilton?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Aaron Burr', correct: true },
+      { text: 'Thomas Jefferson', correct: false },
+      { text: 'James Madison', correct: false },
+      { text: 'King George', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Who was King of England from 1509 - 1547?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'King Edward II', correct: false },
+      { text: 'King Henry VIII', correct: true },
+      { text: 'King Alfred', correct: false },
+      { text: 'King James VI', correct: false }
     ]
   },
   {
