@@ -82,8 +82,8 @@ const questions = [
     answers: [
       { text: 'Louis XVI', correct: true },
       { text: 'Charles X', correct: false },
-      { text: 'Henry IV', correct: true },
-      { text: 'Louis XV', correct: true },
+      { text: 'Henry IV', correct: false },
+      { text: 'Louis XV', correct: false },
     ]
   },
   {
@@ -110,6 +110,14 @@ const questions = [
       { text: 'Death of Philip VI', correct: false },
       { text: 'Treaty of Paris', correct: true },
       { text: 'Battle of Agincourt', correct: false },
+    ]
+  },
+  {
+    question: 'What event started WW1?',
+    answers: [
+      { text: 'Bombing of England', correct: false },
+      { text: 'Assassination of Archduke Franz Ferdinand', correct: true },
+      { text: 'German advance on France', correct: false },
     ]
   }
 ]
