@@ -78,10 +78,12 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Who was the last King of France?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Louis XVI', correct: true },
+      { text: 'Charles X', correct: false },
+      { text: 'Henry IV', correct: true },
+      { text: 'Louis XV', correct: true },
     ]
   },
   {
@@ -103,10 +105,10 @@ const questions = [
     ]
   },
   {
-    question: 'Whate event ended the 100 years war?',
+    question: 'What event ended the 100 years war?',
     answers: [
       { text: 'Death of Philip VI', correct: false },
-      { text: 'Treaty of Paris', correct: true }
+      { text: 'Treaty of Paris', correct: true },
       { text: 'Battle of Agincourt', correct: false },
     ]
   }
