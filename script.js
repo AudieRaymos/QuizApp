@@ -76,7 +76,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-const questions = [
+const questions = [ 
   {
     question: 'Who was the last King of France?',
     answers: [
@@ -118,6 +118,14 @@ const questions = [
       { text: 'Bombing of England', correct: false },
       { text: 'Assassination of Archduke Franz Ferdinand', correct: true },
       { text: 'German advance on France', correct: false },
+    ]
+  },
+  {
+    question: 'Which engineer took us to the moon?',
+    answers: [
+      { text: 'Thomas Edison', correct: false },
+      { text: 'Wernher von Braun', correct: true },
+      { text: 'Nikola Tesla', correct: false },
     ]
   }
 ]
